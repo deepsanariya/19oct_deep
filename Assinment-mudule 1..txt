@@ -1,0 +1,20 @@
+1.What is Software? What is Software Engineering?
+- Software is a Collection of Informmtion, Intrution and Data.
+- Software Engineering is the Process of Designing, Developing etc. 
+
+2.Explain Types of Software?
+- System Software, Application Software and Programme Software.
+
+3.What is SDLC? Explain each phase of SDLC.
+- Full Form of SDLC(Software Development Life Cycle)
+- SDLC consists of various phases, such as planning, design, coding, testing, and deployment
+
+4.What is DFD? Create a DFD diagram on Flipkart
+- Full Form of DFD(Data Flow Diagram)
+- Data flow diagram (DFD) maps out the flow of information for any process or system.
+
+5.What is Flow chart? Create a flowchart to make addition of two numbers.
+- Flowchart is a type of diagram that represents a workflow or process. A flowchart can also be defined as a diagrammatic representation of an algorithm, a step-by-step approach to solving a task.
+- Flowchart -Sum of Two numbers.
+    
+6.What is Use case Diagram? Create a use-case on bill payment on 
