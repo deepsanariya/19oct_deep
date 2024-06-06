@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="#88FFFD ">
+    <div class="container">
+        <h1>Individual Registration</h1>
+        <form>
+            <div class="section">
+                <h2>User Particulars</h2>
+                <div class="form-group">
+                    <label for="login-id">* Login ID:</label>
+                    <input type="text" id="login-id" name="login-id" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">* Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">* Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Personal Particulars</h2>
+                <div class="form-group">
+                    <label for="salutation">* Salutation:</label>
+                    <select id="salutation" name="salutation" required>
+                        <option value="mr">Mr.</option>
+                        <option value="ms">Ms.</option>
+                        <option value="mrs">Mrs.</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="first-name">* First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="middle-name">Middle Name:</label>
+                    <input type="text" id="middle-name" name="middle-name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">* Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="resident-status">* Resident Status:</label>
+                    <select id="resident-status" name="resident-status" required>
+                        <option value="resident">Resident</option>
+                        <option value="non-resident">Non-Resident</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="country">* Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">UK</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="email">* Email-ID:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile-number">* Mobile Number:</label>
+                    <input type="text" id="mobile-number" name="mobile-number" required>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Account Particulars</h2>
+                <div class="form-group">
+                    <label for="account-no">* 15 Digit Account No:</label>
+                    <input type="text" id="account-no" name="account-no" required>
+                </div>
+                <div class="form-group">
+                    <label for="nick-name">Nick Name:</label>
+                    <input type="text" id="nick-name" name="nick-name">
+                </div>
+                <div class="form-group">
+                    <label for="fund-transfer">* Fund Transfer:</label>
+                    <select id="fund-transfer" name="fund-transfer" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section declaration">
+                <h2>DECLARATION</h2>
+                <p>I have read, understood and hereby agree to the Terms and Conditions in respect of all products and channels.</p>
+                <p>I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request at any IOB branches. I confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under his/her joint name respectively, I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.</p>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
